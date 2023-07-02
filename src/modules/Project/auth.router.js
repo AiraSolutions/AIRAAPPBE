@@ -6,6 +6,6 @@ import { Router } from "express";
 const router = Router()
 
 //signup&confirmEmail
-router.post('/cv',fileUpload('cv',fileValidation.image).array('image',2), projectController.cv)
+router.post('/cv',myMulter(fileValidation.image).array('image',2), projectController.cv)
 
 export default router
