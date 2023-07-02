@@ -2,7 +2,16 @@ import axios from 'axios'
 import cloudinary from '../../../services/cloudinary.js'
 import { asyncHandler } from '../../../services/errorHandling.js'
 export const cv = asyncHandler(async (req, res, next) => {
+    try {
+        const data = {
+            Image1_link: `${req.protocol}://${req.headers.host}${req.files[0].dest}`,
+            Image2_link: `${req.protocol}://${req.headers.host}${req.files[1].dest}`,
+        }
+        return res.json({ message: "Done", data })
+    } catch (error) {
+        return res.json({ message: "error catch", error, stack: error.stack })
 
+    }
     // const coverPic = []
     // for (const file of req.files) {
     //     const { secure_url } = await cloudinary.uploader.upload(file.path, { folder: `CV` })
@@ -27,9 +36,5 @@ export const cv = asyncHandler(async (req, res, next) => {
     // })
     // console.log({ result });
 
-    const data = {
-        Image1_link: `${req.protocol}://${req.headers.host}${req.files[0].dest}`,
-        Image2_link: `${req.protocol}://${req.headers.host}${req.files[1].dest}`,
-    }
-    return res.json({ message: "Done", data })
+
 })
