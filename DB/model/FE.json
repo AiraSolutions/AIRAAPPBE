@@ -1,0 +1,155 @@
+{
+    "sections": [
+        {
+            "data": {
+                "sectionName": "MainSection",
+                "title": "Make AI part of ",
+                "span": "your company",
+                "description": "We are passionate about using AI to make positive impact to the world, and we are committed to work with bushiness to help them achieve their goals.",
+                "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649690/Aira/landingPage/Robot_s0adyf.png"
+            }
+        },
+        {
+            "data": {
+                "sectionName": "OUR SERVICES",
+                "title": "OUR SERVICES",
+                "description": "We Provide Best AI Service.",
+                "subDescription": "We help business get the most out of their data with AI-powered insights and recommendations.",
+                "services": [
+                    {
+                        "title": "Freelancing Project.",
+                        "description": "We provide AI services to businesses and individuals who need help with tasks such as data analysis, machine learning, and natural language processing.",
+                        "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649588/Aira/landingPage/Freelancing_Project_ulxyig.png"
+                    },
+                    {
+                        "title": "Data-Driven Marketing Strategies.",
+                        "description": "We help businesses develop and implement data-driven marketing strategies that use AI to improve their results.",
+                        "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649574/Aira/landingPage/Marketing_vq21bp.png"
+                    },
+                    {
+                        "title": "Research And Development.",
+                        "description": "We conduct research and development in the field of AI to develop new and innovative solutions for businesses.",
+                        "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649574/Aira/landingPage/R_D_qehstk.png"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "sectionName": "WHY AIRA",
+                "title": "WHY AIRA",
+                "description": "We help businesses develop and implement data-driven marketing strategies that use AI to improve their",
+                "list": [
+                    "High-quality AI solutions for businesses of all sizes",
+                    "Data-driven content marketing services for improved customer engagement and conversion rates"
+                ],
+                "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649652/Aira/landingPage/Robot_2_hptq1i.png"
+            }
+        },
+        {
+            "data": {
+                "sectionName": "Demo",
+                "title": "Get Your Demo Today.",
+                "description": "Try our products now and get inspire to do it in your business",
+                "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649575/Aira/landingPage/Mobile_e47lvq.png"
+            }
+        },
+        {
+            "data": {
+                "sectionName": "Aira Products",
+                "title": "Aira Products",
+                "description": "",
+                "list": [
+                    {
+                        "title": "Sentiment Analysis.",
+                        "description": "Analysis for your customer comments.",
+                        "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649575/Aira/landingPage/Sentiment_Analysis_vo3emr.png",
+                        "link": "nlp"
+                    },
+                    {
+                        "title": "Computer Vision.",
+                        "description": "Get your Face Recognition system for your Businees.",
+                        "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649586/Aira/landingPage/Computer_Vision_a8cmqr.png",
+                        "link": "computerVision"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "sectionName": "About Us.",
+                "title": "About Us.",
+                "description": "Aira is a startup that provides AI solutions for businesses of all sizes. We specialize in developing custom AI solutions that help ourclients achieve their specific business goals, whether that’s improving efficiency, reducing costs, or increasing revenue. Our team of skilled AI developers and data scientists work closely with our clients to deliver high-quality, innovative solutions that drive real results.",
+                "imageUrl": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649591/Aira/landingPage/logo_pxeuoh.png",
+                "imageUrl2": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687650757/Aira/landingPage/Contact_wbdaqz.png"
+            }
+        },
+        {
+            "data": {
+                "sectionName": "Footer",
+                "logo": "https://res.cloudinary.com/dz5onutvd/image/upload/v1687649598/Aira/landingPage/logo1_dimxpc.png",
+                "title": "AI for a better feature",
+                "linkedIn": "https://www.linkedin.com/company/aira-solutions-ai/about/",
+                "facebook": "https://www.facebook.com/profile.php?id=100093186016081",
+                "twitter": "",
+                "insta": "",
+                "contact": {
+                    "phone": [
+                        "01064968431",
+                        "01112422614"
+                    ],
+                    "email": "airaofficial.ai@gmail.com"
+                }
+            }
+        },
+        {
+            "data": {
+                "sectionName": "AboutPage Meet the FAM Section",
+                "title": "Meet The",
+                "titleSpan": " Fam",
+                "members": [
+                    {
+                        "name": "Ahmed Ziada",
+                        "dir": "lft",
+                        "description": "",
+                        "linkedIn": "https://www.linkedin.com/in/ahmedaliziada/",
+                        "imageUrl": "https://res.cloudinary.com/dlfygxvvc/image/upload/v1688303560/AboutUs/Group_35194_qstbqx.png",
+                        "tempImageUrl": "../../../assets/Aira/AboutUs/Group 35194.png"
+                    },
+                    {
+                        "name": "Nada Ashraf",
+                        "dir": "rtl",
+                        "description": "",
+                        "linkedIn": "https://www.linkedin.com/in/nada-ashraf-878579190/",
+                        "imageUrl": "https://res.cloudinary.com/dlfygxvvc/image/upload/v1688303535/AboutUs/Group_35190_pva9t2.png",
+                        "tempImageUrl": "../../../assets/Aira/AboutUs/Group 35190.png"
+                    },
+                    {
+                        "name": "Abdalla Ragab",
+                        "dir": "lft",
+                        "description": "",
+                        "linkedIn": "https://www.linkedin.com/in/abdallah-mohamed-ragab/",
+                        "imageUrl": "https://res.cloudinary.com/dlfygxvvc/image/upload/v1688303534/AboutUs/Group_35191_khheje.png",
+                        "tempImageUrl": "../../../assets/Aira/AboutUs/Group 35191.png"
+                    },
+                    {
+                        "name": "Mahmoud Yahia",
+                        "dir": "rtl",
+                        "description": "",
+                        "linkedIn": "https://www.linkedin.com/in/mahmoud-yahia-4a98a2156/",
+                        "imageUrl": "https://res.cloudinary.com/dlfygxvvc/image/upload/v1688303530/AboutUs/Group_35192_aazix1.png",
+                        "tempImageUrl": "../../../assets/Aira/AboutUs/Group 35192.png"
+                    },
+                    {
+                        "name": "Mahmoud Elwan",
+                        "dir": "lft",
+                        "description": "",
+                        "linkedIn": "https://www.linkedin.com/in/mahmoud-elwan-083a82190/",
+                        "imageUrl": "https://res.cloudinary.com/dlfygxvvc/image/upload/v1688303608/AboutUs/Group_35193_ipiguf.png",
+                        "tempImageUrl": "../../../assets/Aira/AboutUs/Group 35193.png"
+                    }
+                ]
+            }
+        }
+    ]
+}
