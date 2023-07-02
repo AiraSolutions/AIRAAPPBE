@@ -17,7 +17,7 @@ import connectDB from '../../DB/connection.js'
 //convert Buffer Data
 
 export const appRouter = (app) => {
-    var whitelist = ['https://airadev.netlify.app', 'http://localhost:4200' , 'https://sa-rkg8.onrender.com' , 'https://image-matching-p1re.onrender.com' ] //FE links
+    var whitelist = ['https://airadev.netlify.app', 'http://localhost:4200', 'https://sa-rkg8.onrender.com', 'https://image-matching-p1re.onrender.com'] //FE links
 
 
     app.use(async (req, res, next) => {
@@ -28,21 +28,21 @@ export const appRouter = (app) => {
         for (const origin of whitelist) {
             if (req.header('origin') == origin) {
                 await res.header('Access-Control-Allow-Origin', origin);
-                await res.header('Access-Control-Allow-Headers', '*')
-                await res.header("Access-Control-Allow-Private-Network", 'true')
-                await res.header('Access-Control-Allow-Methods', '*')
-                console.log("Origin Work");
-                next();
-                break;
             }
+            await res.header('Access-Control-Allow-Headers', '*')
+            await res.header("Access-Control-Allow-Private-Network", 'true')
+            await res.header('Access-Control-Allow-Methods', '*')
+            console.log("Origin Work");
+            next();
+            break;
         }
-     
+
     });
     //convert Buffer Data
     app.use(express.json())
     app.use("/uploads", express.static(path.join(__dirname, '../uploads/')))
     app.use(express.urlencoded({ extended: false }))
-  
+
     // setup port and the baseUrl
     if (process.env.MOOD === 'DEV') {
         app.use(morgan("dev"))
