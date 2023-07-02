@@ -22,20 +22,17 @@ export const appRouter = (app) => {
 
     app.use(async (req, res, next) => {
         console.log(req.header('origin'))
-        if (!whitelist.includes(req.header('origin'))) {
-            return next(new Error('Not Allowed By CORS', { status: 403 }))
-        }
-        for (const origin of whitelist) {
-            if (req.header('origin') == origin) {
-                await res.header('Access-Control-Allow-Origin', origin);
-            }
+        if (whitelist.includes(req.header('origin'))) {
+            await res.header('Access-Control-Allow-Origin', req.header('origin'));
             await res.header('Access-Control-Allow-Headers', '*')
             await res.header("Access-Control-Allow-Private-Network", 'true')
             await res.header('Access-Control-Allow-Methods', '*')
             console.log("Origin Work");
-            next();
-            break;
+            return next();
+        } else {
+            return next(new Error('Not Allowed By CORS', { status: 403 }))
         }
+
 
     });
     //convert Buffer Data
