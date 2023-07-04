@@ -17,7 +17,7 @@ import connectDB from '../../DB/connection.js'
 //convert Buffer Data
 
 export const appRouter = (app) => {
-    var whitelist = ['https://airadev.netlify.app', 'http://localhost:4200', 'https://sa-rkg8.onrender.com', 'https://image-matching-p1re.onrender.com'] //FE links
+    var whitelist = ['https://airasolution.netlify.app','https://airadev.netlify.app', 'http://localhost:4200', 'https://sa-rkg8.onrender.com', 'https://image-matching-p1re.onrender.com'] //FE links
 
 
     app.use(async (req, res, next) => {
