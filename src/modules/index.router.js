@@ -33,7 +33,7 @@ export const appRouter = (app) => {
         //     return next(new Error('Not Allowed By CORS', { status: 403 }))
         // }
 
-            await res.header('Access-Control-Allow-Origin', req.header('origin'));
+            await res.header('Access-Control-Allow-Origin', "*");
             await res.header('Access-Control-Allow-Headers', '*')
             await res.header("Access-Control-Allow-Private-Network", 'true')
             await res.header('Access-Control-Allow-Methods', '*')
